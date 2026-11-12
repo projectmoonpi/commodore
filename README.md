@@ -4,6 +4,7 @@
 # Project Moon Pi Commodore projects
 
 New software and hardware for the **Commodore 64 and 128**. Everything is written for **NTSC** machines.
+On the website: [8-Bit Corner at projectmoonpi.com](https://projectmoonpi.com/8-bit-corner/).
 
 Each project has its own repository with source, build notes and ready-to-run downloads. This page lists them
 all. You can also browse the [`commodore-64` topic](https://github.com/topics/commodore-64?q=user%3Aprojectmoonpi).
