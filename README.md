@@ -27,9 +27,28 @@ The animated Project Moon Pi logo intro, built to push the C64:
 
 **Status:** 1.0.0, tested in VICE; real hardware next.
 
+### [Super Commodore 6400](https://github.com/projectmoonpi/super-commodore-6400)
+
+<a href="https://github.com/projectmoonpi/super-commodore-6400"><img src="img/super-commodore-6400.png" width="480" alt="Two cores sharing a Mandelbrot picture"></a>
+
+Several C64s joined into one machine, each one a "core". Step 1 links two C64s through their user ports:
+- a small core kernel on each worker;
+- a leader that hands out the work;
+- a Mandelbrot benchmark that shows the speed-up on screen.
+
+The goal is 8 or more C64s sharing RAM through a cartridge-port hub, all running from one clock.
+
+**Downloads:** [disk (.d64) and programs (.prg)](https://github.com/projectmoonpi/super-commodore-6400/releases/latest)
+
+**Machine:** NTSC C64s (two for now)
+
+**Status:** 0.1.0. Two cores give a 1.955× speed-up in the two-machine simulator. Real hardware next, then the
+clock mod and the hub.
+
 ## Coming up
 
-- User-port and cartridge-port hardware for the C64 (and maybe the C128).
+- Super Commodore 6400 hardware: the clock-injection mod, the Pack Link cartridge pod and the shared-RAM hub.
+- More user-port and cartridge-port hardware for the C64 (and maybe the C128).
 
 ## Tools
 
